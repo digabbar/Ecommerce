@@ -1,0 +1,13 @@
+import React from 'react';
+import {Text} from 'react-native';
+import styles from './style';
+
+interface TitleComponentProps {
+  title: string;
+}
+
+const TitleComponent: React.FC<TitleComponentProps> = ({title}) => {
+  return <Text style={styles.title}>{title}</Text>;
+};
+
+export default TitleComponent;

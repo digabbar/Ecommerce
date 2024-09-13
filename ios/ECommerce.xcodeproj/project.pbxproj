@@ -13,8 +13,17 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		316752327DF457F6BAD6DA57 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E25D250A26934D9963E2E3A8 /* PrivacyInfo.xcprivacy */; };
+		675E3E4579CE431EA2D2A647 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B469AE6D54404B8D65DA6 /* Inter-Thin.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-ECommerce-ECommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ECommerce-ECommerceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8930F5A63FF94AEA95F377D2 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26D37448C88C49E4BDC5E64B /* Inter-Medium.ttf */; };
+		A216B712D4D54E5993BC8BE8 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0022B4F97EE4110A84C0CF5 /* Inter-ExtraLight.ttf */; };
+		A8FB682C13D2432E813B20DD /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEF9F231591E46BCADD9534E /* Inter-ExtraBold.ttf */; };
+		B14338C677C34CFB9AE40B86 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CD6041B3D34473AB407B01 /* Inter-Bold.ttf */; };
+		BF1D649EC7B24ADBB4594990 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D05D4CDE519A4E24A4F59F5F /* Inter-Regular.ttf */; };
+		D62DA0E6F5624900806BB400 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CC1323EF1B4D788A5D43BE /* Inter-Black.ttf */; };
+		DC89AB9B702E4A7D96C8AB9A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B1149D8B54CC490F353A4 /* Inter-SemiBold.ttf */; };
+		FD623917526A495B9175DB70 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE78BD876AE441DB6ACA25C /* Inter-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +40,7 @@
 		00E356EE1AD99517003FC87E /* ECommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ECommerceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECommerceTests.m; sourceTree = "<group>"; };
+		04CD6041B3D34473AB407B01 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ECommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ECommerce/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ECommerce/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,13 +49,21 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ECommerce/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ECommerce/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ECommerce-ECommerceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECommerce-ECommerceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D37448C88C49E4BDC5E64B /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECommerce.debug.xcconfig"; path = "Target Support Files/Pods-ECommerce/Pods-ECommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3B1149D8B54CC490F353A4 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECommerce.release.xcconfig"; path = "Target Support Files/Pods-ECommerce/Pods-ECommerce.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ECommerce-ECommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECommerce-ECommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-ECommerce-ECommerceTests/Pods-ECommerce-ECommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ECommerce/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ECommerce-ECommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECommerce-ECommerceTests.release.xcconfig"; path = "Target Support Files/Pods-ECommerce-ECommerceTests/Pods-ECommerce-ECommerceTests.release.xcconfig"; sourceTree = "<group>"; };
-		E25D250A26934D9963E2E3A8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ECommerce/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8C6B469AE6D54404B8D65DA6 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		9FE78BD876AE441DB6ACA25C /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		B0022B4F97EE4110A84C0CF5 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B9CC1323EF1B4D788A5D43BE /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		BEF9F231591E46BCADD9534E /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D05D4CDE519A4E24A4F59F5F /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		E25D250A26934D9963E2E3A8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ECommerce/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,6 +102,23 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BB21B4BF7874EC281C87297 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC1323EF1B4D788A5D43BE /* Inter-Black.ttf */,
+				04CD6041B3D34473AB407B01 /* Inter-Bold.ttf */,
+				BEF9F231591E46BCADD9534E /* Inter-ExtraBold.ttf */,
+				B0022B4F97EE4110A84C0CF5 /* Inter-ExtraLight.ttf */,
+				9FE78BD876AE441DB6ACA25C /* Inter-Light.ttf */,
+				26D37448C88C49E4BDC5E64B /* Inter-Medium.ttf */,
+				D05D4CDE519A4E24A4F59F5F /* Inter-Regular.ttf */,
+				4E3B1149D8B54CC490F353A4 /* Inter-SemiBold.ttf */,
+				8C6B469AE6D54404B8D65DA6 /* Inter-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* ECommerce */ = {
@@ -127,6 +162,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0BB21B4BF7874EC281C87297 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +285,15 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				316752327DF457F6BAD6DA57 /* PrivacyInfo.xcprivacy in Resources */,
+				D62DA0E6F5624900806BB400 /* Inter-Black.ttf in Resources */,
+				B14338C677C34CFB9AE40B86 /* Inter-Bold.ttf in Resources */,
+				A8FB682C13D2432E813B20DD /* Inter-ExtraBold.ttf in Resources */,
+				A216B712D4D54E5993BC8BE8 /* Inter-ExtraLight.ttf in Resources */,
+				FD623917526A495B9175DB70 /* Inter-Light.ttf in Resources */,
+				8930F5A63FF94AEA95F377D2 /* Inter-Medium.ttf in Resources */,
+				BF1D649EC7B24ADBB4594990 /* Inter-Regular.ttf in Resources */,
+				DC89AB9B702E4A7D96C8AB9A /* Inter-SemiBold.ttf in Resources */,
+				675E3E4579CE431EA2D2A647 /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,8 +517,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SV3TG26B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ECommerce/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ecommerce;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +532,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.soham;
 				PRODUCT_NAME = ECommerce;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -499,7 +547,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76SV3TG26B;
 				INFOPLIST_FILE = ECommerce/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ecommerce;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +561,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.soham;
 				PRODUCT_NAME = ECommerce;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
