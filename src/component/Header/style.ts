@@ -8,9 +8,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: horizontalScale(16),
-    paddingTop:horizontalScale(30),
+    paddingTop:Platform.OS==="ios"?verticalScale(30):verticalScale(10),
     backgroundColor: global.color.header,
-    height:Platform.OS==="ios"?verticalScale(100):verticalScale(90),
+    height:Platform.OS==="ios"?verticalScale(100):verticalScale(50),
   } as ViewStyle,
 
 
