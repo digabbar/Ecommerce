@@ -3,8 +3,8 @@ import store from './src/reducer/store';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import AddProduct from './src/screen/AddProduct/AddProduct';
-import HomePage from './src/screen/HomePage.js/HomePage';
+import AddProduct from './src/component/Pages/AddProduct';
+import HomePage from './src/component/Pages/HomePage';
 
 const Stack = createNativeStackNavigator();
 

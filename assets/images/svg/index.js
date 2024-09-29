@@ -4,5 +4,5 @@ import BACK from './back.svg';
 export {
     DELETE,
     ADD,
-    BACK
-}
+    BACK,
+};

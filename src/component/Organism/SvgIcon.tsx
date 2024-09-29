@@ -1,6 +1,6 @@
 import React from 'react';
 import {SvgXml} from 'react-native-svg';
-import global from '../../helpers/global';
+import global from '../../../helpers/global';
 
 interface SVGIconProps {
   width?: number | string;

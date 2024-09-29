@@ -31,15 +31,15 @@ const global: Global = {
     color:  {
         primary: '#007BFF', // Primary Blue
         secondary: '#6C757D', // Medium Gray
-        success: '#28A745', // Green 
-        warning: '#FFC107', // Yellow 
-        error: '#DC3545', // Red 
+        success: '#28A745', // Green
+        warning: '#FFC107', // Yellow
+        error: '#DC3545', // Red
         header: '#343A40', // Dark Gray
-        text: '#212529', // Near Black 
+        text: '#212529', // Near Black
         background: '#F8F9FA', // Light Gray
         border: '#DEE2E6', // Gray
-        white:"#fff",
-        black10:"rgba(0,0,0,0.1)"
+        white:'#fff',
+        black10:'rgba(0,0,0,0.1)',
     },
     fontSize: {
         f11: scaleFontSize(11),
@@ -53,7 +53,7 @@ const global: Global = {
     },
     getFontFamily(weight?: string | number,baseFont: string = 'Inter'): string {
         const weightStr = typeof weight === 'number' ? weight.toString() : weight;
-        
+
         switch (weightStr) {
             case '100':
                 return `${baseFont}-Thin`;
@@ -78,7 +78,7 @@ const global: Global = {
             default:
                 return `${baseFont}-Regular`;
         }
-    }
+    },
 };
 
 export default global;

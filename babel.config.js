@@ -5,7 +5,7 @@ module.exports = {
       {
         extensions: ['.svg'],
       },
-    ]
+    ],
   ],
   presets: ['module:@react-native/babel-preset'],
 };

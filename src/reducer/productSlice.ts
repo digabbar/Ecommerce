@@ -23,18 +23,18 @@ export const productSlice = createSlice({
     initialState,
     reducers: {
 
-     
+
         addProduct: (state, action: PayloadAction<Product>) => {
 
             state.value.unshift({...action.payload,id:state.value.length});
         },
 
-     
+
         deleteProduct: (state, action: PayloadAction<number>) => {
             state.value = state.value.filter(product => product.id !== action.payload);
         },
 
-   
+
     },
 });
 

@@ -2,12 +2,13 @@ import React, {useCallback, useLayoutEffect, useState, useMemo} from 'react';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RouteProp} from '@react-navigation/native';
 import {View, BackHandler} from 'react-native';
-import Header from '../../component/Header/Header';
+
 import globalStyle from '../../../helpers/globalStyle';
-import LeftComponent from '../../component/Header/LeftComponent';
-import TitleComponent from '../../component/Header/TitleComponent';
-import CmpTextInput from '../../component/CmpTextInput/CmpTextInput';
-import CmpButton from '../../component/CmpButton/CmpButton';
+
+import {LeftComponent, TitleComponent, Header} from '../Organism/Header';
+
+import InputField from '../Atoms/InputField';
+import Button from '../Atoms/Button';
 import {horizontalScale, verticalScale} from '../../../helpers/scaling';
 import global from '../../../helpers/global';
 import {useDispatch} from 'react-redux';
@@ -90,14 +91,14 @@ const AddProduct: React.FC<AddProductProps> = ({navigation}) => {
 
   return (
     <View style={[globalStyle.primary, globalStyle.flexOne, containerStyle]}>
-      <CmpTextInput
+      <InputField
         label="Product Name"
         placeholder="Enter"
         value={formData.productName}
         onChange={text => handleInputChange('productName', text)}
         error={errors.productName}
       />
-      <CmpTextInput
+      <InputField
         label="Price"
         placeholder="Enter"
         value={formData.price}
@@ -105,7 +106,7 @@ const AddProduct: React.FC<AddProductProps> = ({navigation}) => {
         onChange={text => handleInputChange('price', text)}
         error={errors.price}
       />
-      <CmpButton
+      <Button
         onPress={handleAddProduct}
         title="Add"
         color={global.color.success}
